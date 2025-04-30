@@ -34,9 +34,15 @@ local music2 = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local give = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
+local Nofog = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local ImageLabel = Instance.new("ImageLabel")
+local pow = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
+local Servermsg = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_19 = Instance.new("UICorner")
 
 --Properties:
 
@@ -52,7 +58,7 @@ Bar.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 Bar.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Bar.BorderSizePixel = 0
 Bar.Draggable = true
-Bar.Position = UDim2.new(0.215971082, -225, 0.132945582, -24)
+Bar.Position = UDim2.new(0.215971082, 130, 0.131723076, 52)
 Bar.Selectable = true
 Bar.Size = UDim2.new(0.325445443, 0, 0.11222446, 0)
 
@@ -92,8 +98,8 @@ main.Active = true
 main.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
 main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 main.BorderSizePixel = 0
-main.Position = UDim2.new(0, 0, 0.904143572, 0)
-main.Size = UDim2.new(0, 624, 0, 257)
+main.Position = UDim2.new(0.00160538743, 0, 0.904143572, 0)
+main.Size = UDim2.new(0, 624, 0, 359)
 
 CreateBasePlate.Name = "CreateBasePlate"
 CreateBasePlate.Parent = main
@@ -101,7 +107,7 @@ CreateBasePlate.AnchorPoint = Vector2.new(0, 0.899999976)
 CreateBasePlate.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 CreateBasePlate.BorderColor3 = Color3.fromRGB(0, 0, 0)
 CreateBasePlate.BorderSizePixel = 0
-CreateBasePlate.Position = UDim2.new(0.701550305, 0, 0.468754441, 0)
+CreateBasePlate.Position = UDim2.new(0.699947834, 0, 0.339555353, 0)
 CreateBasePlate.Size = UDim2.new(0, 160, 0, 53)
 CreateBasePlate.Font = Enum.Font.Gotham
 CreateBasePlate.Text = "Create Baseplate"
@@ -118,7 +124,7 @@ DecalSpam.AnchorPoint = Vector2.new(0, 0.899999976)
 DecalSpam.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 DecalSpam.BorderColor3 = Color3.fromRGB(0, 0, 0)
 DecalSpam.BorderSizePixel = 0
-DecalSpam.Position = UDim2.new(0.0413629599, 0, 0.220773309, 0)
+DecalSpam.Position = UDim2.new(0.0413629599, 0, 0.156697735, 0)
 DecalSpam.Size = UDim2.new(0, 160, 0, 53)
 DecalSpam.Font = Enum.Font.Gotham
 DecalSpam.Text = "Decal Spam"
@@ -135,7 +141,7 @@ FireAll.AnchorPoint = Vector2.new(0, 0.899999976)
 FireAll.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 FireAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FireAll.BorderSizePixel = 0
-FireAll.Position = UDim2.new(0.372920692, 0, 0.472183108, 0)
+FireAll.Position = UDim2.new(0.372920692, 0, 0.342285454, 0)
 FireAll.Size = UDim2.new(0, 160, 0, 53)
 FireAll.Font = Enum.Font.Gotham
 FireAll.Text = "Fire All"
@@ -152,7 +158,7 @@ FireParts.AnchorPoint = Vector2.new(0, 0.899999976)
 FireParts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 FireParts.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FireParts.BorderSizePixel = 0
-FireParts.Position = UDim2.new(0.372920692, 0, 0.704900682, 0)
+FireParts.Position = UDim2.new(0.371318132, 0, 0.524505854, 0)
 FireParts.Size = UDim2.new(0, 160, 0, 53)
 FireParts.Font = Enum.Font.Gotham
 FireParts.Text = "Fire Parts"
@@ -169,7 +175,7 @@ KillAll.AnchorPoint = Vector2.new(0, 0.899999976)
 KillAll.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 KillAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
 KillAll.BorderSizePixel = 0
-KillAll.Position = UDim2.new(0.0413629599, 0, 0.708541155, 0)
+KillAll.Position = UDim2.new(0.0349527001, 0, 0.522225916, 0)
 KillAll.Size = UDim2.new(0, 160, 0, 53)
 KillAll.Font = Enum.Font.Gotham
 KillAll.Text = "Kill All"
@@ -186,7 +192,7 @@ RainToad.AnchorPoint = Vector2.new(0, 0.899999976)
 RainToad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 RainToad.BorderColor3 = Color3.fromRGB(0, 0, 0)
 RainToad.BorderSizePixel = 0
-RainToad.Position = UDim2.new(0.0400641039, 0, 0.476719171, 0)
+RainToad.Position = UDim2.new(0.0352564119, 0, 0.3436867, 0)
 RainToad.Size = UDim2.new(0, 160, 0, 53)
 RainToad.Font = Enum.Font.Gotham
 RainToad.Text = "Rain Toad"
@@ -203,7 +209,7 @@ Skybox.AnchorPoint = Vector2.new(0, 0.899999976)
 Skybox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Skybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Skybox.BorderSizePixel = 0
-Skybox.Position = UDim2.new(0.701550305, 0, 0.708541155, 0)
+Skybox.Position = UDim2.new(0.699947834, 0, 0.522225916, 0)
 Skybox.Size = UDim2.new(0, 160, 0, 53)
 Skybox.Font = Enum.Font.Gotham
 Skybox.Text = "Skybox"
@@ -220,7 +226,7 @@ Unanchor.AnchorPoint = Vector2.new(0, 0.899999976)
 Unanchor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Unanchor.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Unanchor.BorderSizePixel = 0
-Unanchor.Position = UDim2.new(0.372920692, 0, 0.220712513, 0)
+Unanchor.Position = UDim2.new(0.372920692, 0, 0.153851435, 0)
 Unanchor.Size = UDim2.new(0, 160, 0, 53)
 Unanchor.Font = Enum.Font.Gotham
 Unanchor.Text = "Unanchor"
@@ -237,7 +243,7 @@ ColorAll.AnchorPoint = Vector2.new(0, 0.899999976)
 ColorAll.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ColorAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ColorAll.BorderSizePixel = 0
-ColorAll.Position = UDim2.new(0.699950278, 0, 0.216949344, 0)
+ColorAll.Position = UDim2.new(0.698347747, 0, 0.15635787, 0)
 ColorAll.Size = UDim2.new(0, 160, 0, 53)
 ColorAll.Font = Enum.Font.Gotham
 ColorAll.Text = "Color All"
@@ -256,7 +262,7 @@ music1.AnchorPoint = Vector2.new(0, 0.899999976)
 music1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 music1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 music1.BorderSizePixel = 0
-music1.Position = UDim2.new(0.701550305, 0, 0.949786305, 0)
+music1.Position = UDim2.new(0.699947834, 0, 0.716108799, 0)
 music1.Size = UDim2.new(0, 160, 0, 53)
 music1.Font = Enum.Font.Gotham
 music1.Text = "Music 2"
@@ -273,7 +279,7 @@ music2.AnchorPoint = Vector2.new(0, 0.899999976)
 music2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 music2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 music2.BorderSizePixel = 0
-music2.Position = UDim2.new(0.372920692, 0, 0.946145773, 0)
+music2.Position = UDim2.new(0.372920692, 0, 0.718388379, 0)
 music2.Size = UDim2.new(0, 160, 0, 53)
 music2.Font = Enum.Font.Gotham
 music2.Text = "Music 1"
@@ -290,7 +296,7 @@ give.AnchorPoint = Vector2.new(0, 0.899999976)
 give.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 give.BorderColor3 = Color3.fromRGB(0, 0, 0)
 give.BorderSizePixel = 0
-give.Position = UDim2.new(0.0413629599, 0, 0.949786305, 0)
+give.Position = UDim2.new(0.0349527001, 0, 0.718894362, 0)
 give.Size = UDim2.new(0, 160, 0, 53)
 give.Font = Enum.Font.Gotham
 give.Text = "Give Btools"
@@ -301,7 +307,58 @@ give.TextWrapped = true
 UICorner_14.CornerRadius = UDim.new(0, 4)
 UICorner_14.Parent = give
 
-UICorner_15.Parent = Bar
+Nofog.Name = "No fog"
+Nofog.Parent = main
+Nofog.AnchorPoint = Vector2.new(0, 0.899999976)
+Nofog.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Nofog.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nofog.BorderSizePixel = 0
+Nofog.Position = UDim2.new(0.0347796716, 0, 0.907803416, 0)
+Nofog.Size = UDim2.new(0, 160, 0, 53)
+Nofog.Font = Enum.Font.Gotham
+Nofog.Text = "No fog"
+Nofog.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nofog.TextSize = 24.000
+Nofog.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 4)
+UICorner_15.Parent = Nofog
+
+pow.Name = "pow"
+pow.Parent = main
+pow.AnchorPoint = Vector2.new(0, 0.899999976)
+pow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pow.BorderSizePixel = 0
+pow.Position = UDim2.new(0.372920692, 0, 0.907803416, 0)
+pow.Size = UDim2.new(0, 160, 0, 53)
+pow.Font = Enum.Font.Gotham
+pow.Text = "Remove power"
+pow.TextColor3 = Color3.fromRGB(255, 255, 255)
+pow.TextSize = 24.000
+pow.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 4)
+UICorner_16.Parent = pow
+
+Servermsg.Name = "Servermsg"
+Servermsg.Parent = main
+Servermsg.AnchorPoint = Vector2.new(0, 0.899999976)
+Servermsg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Servermsg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Servermsg.BorderSizePixel = 0
+Servermsg.Position = UDim2.new(0.699947834, 0, 0.905523896, 0)
+Servermsg.Size = UDim2.new(0, 160, 0, 53)
+Servermsg.Font = Enum.Font.Gotham
+Servermsg.Text = "Server Message"
+Servermsg.TextColor3 = Color3.fromRGB(255, 255, 255)
+Servermsg.TextSize = 24.000
+Servermsg.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 4)
+UICorner_17.Parent = Servermsg
+
+UICorner_18.Parent = Bar
 
 ImageLabel.Parent = Bar
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -311,8 +368,8 @@ ImageLabel.Position = UDim2.new(0.50409168, 0, 0.0160670094, 0)
 ImageLabel.Size = UDim2.new(0, 85, 0, 75)
 ImageLabel.Image = "rbxassetid://84392770977353"
 
-UICorner_16.CornerRadius = UDim.new(0, 12)
-UICorner_16.Parent = ImageLabel
+UICorner_19.CornerRadius = UDim.new(0, 12)
+UICorner_19.Parent = ImageLabel
 
 -- Scripts:
 
@@ -320,10 +377,10 @@ local function BXUZB_fake_script() -- Bar.OpenCloseKeybind
 	local script = Instance.new('LocalScript', Bar)
 
 	local function C_35()
-	
+
 		local mouse = game.Players.LocalPlayer:GetMouse()
-	
-	
+
+
 		mouse.KeyDown:Connect(function(k)
 			if k == "v" then
 				script.Parent.Visible = not script.Parent.Visible
@@ -356,7 +413,7 @@ local function NPQFOGX_fake_script() -- CreateBasePlate.LocalScript
 	local script = Instance.new('LocalScript', CreateBasePlate)
 
 	local function C_1e()
-	
+
 		script.Parent.MouseButton1Down:Connect(function()
 			local player = game.Players.LocalPlayer
 			local char = player.Character
@@ -454,7 +511,7 @@ local function NPQFOGX_fake_script() -- CreateBasePlate.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -487,7 +544,7 @@ local function NPQFOGX_fake_script() -- CreateBasePlate.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -512,7 +569,7 @@ local function NPQFOGX_fake_script() -- CreateBasePlate.LocalScript
 					[3] = lead
 				}
 				_(args)
-	
+
 			end
 			function SetLocked(part,boolean)
 				local args = {
@@ -561,9 +618,9 @@ local function NPQFOGX_fake_script() -- CreateBasePlate.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function Material(part,mate)
-	
+
 				local args = {
 					[1] = "SyncMaterial",
 					[2] = {
@@ -715,7 +772,7 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -748,7 +805,7 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -773,7 +830,7 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 					[3] = lead
 				}
 				_(args)
-	
+
 			end
 			function SetLocked(part,boolean)
 				local args = {
@@ -846,7 +903,7 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 						}
 					}
 				}
-	
+
 				_(args)
 			end
 			function AddDecal(part,asset,side)
@@ -863,7 +920,7 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function spam(id)
 				for i,v in game.workspace:GetDescendants() do
 					if v:IsA("BasePart") then
@@ -871,19 +928,19 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 							SetLocked(v,false)
 							SpawnDecal(v,Enum.NormalId.Front)
 							AddDecal(v,id,Enum.NormalId.Front)
-	
+
 							SpawnDecal(v,Enum.NormalId.Back)
 							AddDecal(v,id,Enum.NormalId.Back)
-	
+
 							SpawnDecal(v,Enum.NormalId.Right)
 							AddDecal(v,id,Enum.NormalId.Right)
-	
+
 							SpawnDecal(v,Enum.NormalId.Left)
 							AddDecal(v,id,Enum.NormalId.Left)
-	
+
 							SpawnDecal(v,Enum.NormalId.Bottom)
 							AddDecal(v,id,Enum.NormalId.Bottom)
-	
+
 							SpawnDecal(v,Enum.NormalId.Top)
 							AddDecal(v,id,Enum.NormalId.Top)
 						end)
@@ -892,11 +949,11 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 			end
 			spam("84392770977353")
 		end)
-	
+
 		coroutine.wrap(ZYJPOKE_fake_script)()
 		local function IGAFG_fake_script() -- Duckify.LocalScript 
 			local script = Instance.new('LocalScript', Duckify)
-	
+
 			script.Parent.MouseButton1Click:Connect(function()
 				--rgrg
 				local player = game.Players.LocalPlayer
@@ -995,7 +1052,7 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 					}
 					_(args)
 				end
-	
+
 				function SetMesh(part,meshid)
 					local args = {
 						[1] = "SyncMesh",
@@ -1028,7 +1085,7 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 						},
 						[3] = stringg
 					}
-	
+
 					_(args)
 				end
 				function MeshResize(part,size)
@@ -1053,7 +1110,7 @@ local function MTMFOV_fake_script() -- DecalSpam.LocalScript
 						[3] = lead
 					}
 					_(args)
-	
+
 				end
 				function SetLocked(part,boolean)
 					local args = {
@@ -1149,7 +1206,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 	local script = Instance.new('LocalScript', FireAll)
 
 	local function C_12()
-	
+
 		script.Parent.MouseButton1Down:Connect(function()
 			--rgrg
 			local player = game.Players.LocalPlayer
@@ -1248,7 +1305,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -1281,7 +1338,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -1306,7 +1363,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 					[3] = lead
 				}
 				_(args)
-	
+
 			end
 			function SetLocked(part,boolean)
 				local args = {
@@ -1367,7 +1424,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function Fire(player)
 				for i,v in player.Character:GetDescendants() do
 					if v:IsA("BasePart") then
@@ -1376,7 +1433,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 				end
 				DestroyPart(player.Character.Head)
 			end
-	
+
 			for i,v in game.Players:GetPlayers() do
 				spawn(function()
 					pcall(function()
@@ -1385,11 +1442,11 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 				end)
 			end
 		end)
-	
+
 		coroutine.wrap(YTBL_fake_script)()
 		local function YNEKD_fake_script() -- Luigirain.LocalScript 
 			local script = Instance.new('LocalScript', Luigirain)
-	
+
 			script.Parent.MouseButton1Click:Connect(function()
 				--rgrg
 				local player = game.Players.LocalPlayer
@@ -1488,7 +1545,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 					}
 					_(args)
 				end
-	
+
 				function SetMesh(part,meshid)
 					local args = {
 						[1] = "SyncMesh",
@@ -1521,7 +1578,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 						},
 						[3] = stringg
 					}
-	
+
 					_(args)
 				end
 				function MeshResize(part,size)
@@ -1564,7 +1621,7 @@ local function YXZFE_fake_script() -- FireAll.LocalScript
 				end
 			end)
 		end
-	
+
 	end;
 	task.spawn(C_12);
 end
@@ -1573,7 +1630,7 @@ local function LVCY_fake_script() -- FireParts.LocalScript
 	local script = Instance.new('LocalScript', FireParts)
 
 	local function C_33()
-	
+
 		script.Parent.MouseButton1Down:Connect(function()
 			local player = game.Players.LocalPlayer
 			local char = player.Character
@@ -1671,7 +1728,7 @@ local function LVCY_fake_script() -- FireParts.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -1704,7 +1761,7 @@ local function LVCY_fake_script() -- FireParts.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -1729,7 +1786,7 @@ local function LVCY_fake_script() -- FireParts.LocalScript
 					[3] = lead
 				}
 				_(args)
-	
+
 			end
 			function SetLocked(part,boolean)
 				local args = {
@@ -1799,7 +1856,7 @@ local function LVCY_fake_script() -- FireParts.LocalScript
 				end
 			end
 			FireParts()
-	
+
 		end)
 	end;
 	task.spawn(C_33);
@@ -1809,7 +1866,7 @@ local function BUDNP_fake_script() -- KillAll.LocalScript
 	local script = Instance.new('LocalScript', KillAll)
 
 	local function C_21()
-	
+
 		script.Parent.MouseButton1Down:Connect(function()
 			local player = game.Players.LocalPlayer
 			local char = player.Character
@@ -1907,7 +1964,7 @@ local function BUDNP_fake_script() -- KillAll.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -1940,7 +1997,7 @@ local function BUDNP_fake_script() -- KillAll.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -1965,7 +2022,7 @@ local function BUDNP_fake_script() -- KillAll.LocalScript
 					[3] = lead
 				}
 				_(args)
-	
+
 			end
 			function SetLocked(part,boolean)
 				local args = {
@@ -2014,7 +2071,7 @@ local function BUDNP_fake_script() -- KillAll.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function KillAll()
 				for i,v in game.Players:GetPlayers() do
 					spawn(function()
@@ -2033,7 +2090,7 @@ local function FLEZNQ_fake_script() -- RainToad.LocalScript
 	local script = Instance.new('LocalScript', RainToad)
 
 	local function C_15()
-	
+
 		script.Parent.MouseButton1Down:Connect(function()
 			--rgrg
 			local player = game.Players.LocalPlayer
@@ -2132,7 +2189,7 @@ local function FLEZNQ_fake_script() -- RainToad.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -2165,7 +2222,7 @@ local function FLEZNQ_fake_script() -- RainToad.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -2215,7 +2272,7 @@ local function GLZTHP_fake_script() -- Skybox.LocalScript
 	local script = Instance.new('LocalScript', Skybox)
 
 	local function C_27()
-	
+
 		script.Parent.MouseButton1Down:Connect(function()
 			--rgrg
 			local player = game.Players.LocalPlayer
@@ -2314,7 +2371,7 @@ local function GLZTHP_fake_script() -- Skybox.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -2347,7 +2404,7 @@ local function GLZTHP_fake_script() -- Skybox.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -2372,7 +2429,7 @@ local function GLZTHP_fake_script() -- Skybox.LocalScript
 					[3] = lead
 				}
 				_(args)
-	
+
 			end
 			function SetLocked(part,boolean)
 				local args = {
@@ -2445,7 +2502,7 @@ local function GLZTHP_fake_script() -- Skybox.LocalScript
 						}
 					}
 				}
-	
+
 				_(args)
 			end
 			function AddDecal(part,asset,side)
@@ -2462,7 +2519,7 @@ local function GLZTHP_fake_script() -- Skybox.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function Sky(id)
 				e = char.HumanoidRootPart.CFrame.x
 				f = char.HumanoidRootPart.CFrame.y
@@ -2484,7 +2541,7 @@ local function GLZTHP_fake_script() -- Skybox.LocalScript
 				end
 			end
 			Sky("15475953475")
-	
+
 		end)
 	end;
 	task.spawn(C_27);
@@ -2494,7 +2551,7 @@ local function DENC_fake_script() -- Unanchor.LocalScript
 	local script = Instance.new('LocalScript', Unanchor)
 
 	local function C_1b()
-		
+
 		script.Parent.MouseButton1Down:Connect(function()
 			local player = game.Players.LocalPlayer
 			local char = player.Character
@@ -2592,7 +2649,7 @@ local function DENC_fake_script() -- Unanchor.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -2625,7 +2682,7 @@ local function DENC_fake_script() -- Unanchor.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -2650,7 +2707,7 @@ local function DENC_fake_script() -- Unanchor.LocalScript
 					[3] = lead
 				}
 				_(args)
-	
+
 			end
 			function SetLocked(part,boolean)
 				local args = {
@@ -2699,7 +2756,7 @@ local function DENC_fake_script() -- Unanchor.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function Unanchor()
 				for i,v in game.Workspace:GetDescendants() do
 					spawn(function()
@@ -2709,7 +2766,7 @@ local function DENC_fake_script() -- Unanchor.LocalScript
 				end
 			end
 			Unanchor()
-	
+
 		end)
 	end;
 	task.spawn(C_1b);
@@ -2719,7 +2776,7 @@ local function HMXXU_fake_script() -- ColorAll.LocalScript
 	local script = Instance.new('LocalScript', ColorAll)
 
 	local function C_c()
-	
+
 		script.Parent.MouseButton1Down:Connect(function()
 			--rgrg
 			local player = game.Players.LocalPlayer
@@ -2818,7 +2875,7 @@ local function HMXXU_fake_script() -- ColorAll.LocalScript
 				}
 				_(args)
 			end
-	
+
 			function SetMesh(part,meshid)
 				local args = {
 					[1] = "SyncMesh",
@@ -2851,7 +2908,7 @@ local function HMXXU_fake_script() -- ColorAll.LocalScript
 					},
 					[3] = stringg
 				}
-	
+
 				_(args)
 			end
 			function MeshResize(part,size)
@@ -2876,7 +2933,7 @@ local function HMXXU_fake_script() -- ColorAll.LocalScript
 					[3] = lead
 				}
 				_(args)
-	
+
 			end
 			function SetLocked(part,boolean)
 				local args = {
@@ -2954,8 +3011,8 @@ local function HMXXU_fake_script() -- ColorAll.LocalScript
 				end)
 			end
 		end)
-	
-	
+
+
 	end;
 	task.spawn(C_c);
 end
@@ -2969,7 +3026,7 @@ local function ZLJY_fake_script() -- music1.LocalScript
 		else
 			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;music 6129291390 ;volume 1000", "All")
 		end
-	
+
 	end)
 end
 coroutine.wrap(ZLJY_fake_script)()
@@ -2982,7 +3039,7 @@ local function WIUYKE_fake_script() -- music2.LocalScript
 		else
 			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;music 72089843969979 ;pitch 0.19 ;volume 1000", "All")
 		end
-	
+
 	end)
 end
 coroutine.wrap(WIUYKE_fake_script)()
@@ -2995,7 +3052,50 @@ local function ORUSY_fake_script() -- give.LocalScript
 		else
 			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;btools", "All")
 		end
-	
+
 	end)
 end
 coroutine.wrap(ORUSY_fake_script)()
+
+
+local function JSLIVKA_fake_script() -- Nofog.LocalScript 
+	local script = Instance.new('LocalScript', Nofog)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;fog 10000000000 0")
+		else
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;fog 10000000000 0", "All")
+		end
+	
+	end)
+end
+coroutine.wrap(JSLIVKA_fake_script)()
+local function YKSS_fake_script() -- pow.LocalScript 
+	local script = Instance.new('LocalScript', pow)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;unrank others ;re others ;unfly others")
+		else
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;unrank others ;re others ;unfly others", "All")
+		end
+	
+	end)
+end
+coroutine.wrap(YKSS_fake_script)()
+local function BJRXWB_fake_script() -- Servermsg.LocalScript 
+	local script = Instance.new('LocalScript', Servermsg)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;sm HAXXED BY TEAM STU@RT ")
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e  ;serverhint HAHAHAHA")
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;systemChat THIS GAME WAS DESTROYED BY TEAM STUART")
+		else
+			print("lol this line is useless in a day lol")
+		end
+	
+	end)
+end
+coroutine.wrap(BJRXWB_fake_script)()
