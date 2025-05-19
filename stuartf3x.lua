@@ -3021,11 +3021,12 @@ local function ZLJY_fake_script() -- music1.LocalScript
 	local script = Instance.new('LocalScript', music1)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;music 6129291390 ;volume 1000")
-		else
-			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;music 6129291390 ;volume 1000", "All")
-		end
+	
+			local args = {
+	";music 6129291390 ;volume 1000"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminHDClient"):WaitForChild("Signals"):WaitForChild("RequestCommandSilent"):InvokeServer(unpack(args))
+
 
 	end)
 end
@@ -3034,11 +3035,10 @@ local function WIUYKE_fake_script() -- music2.LocalScript
 	local script = Instance.new('LocalScript', music2)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;music 72089843969979 ;pitch 0.19 ;volume 1000")
-		else
-			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;music 72089843969979 ;pitch 0.19 ;volume 1000", "All")
-		end
+		local args = {
+	";music 72089843969979 ;pitch 0.19 ;volume 1000"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminHDClient"):WaitForChild("Signals"):WaitForChild("RequestCommandSilent"):InvokeServer(unpack(args))
 
 	end)
 end
@@ -3047,11 +3047,11 @@ local function ORUSY_fake_script() -- give.LocalScript
 	local script = Instance.new('LocalScript', give)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;btools")
-		else
-			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;btools", "All")
-		end
+		local args = {
+	";btools "
+}
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminHDClient"):WaitForChild("Signals"):WaitForChild("RequestCommandSilent"):InvokeServer(unpack(args))
+
 
 	end)
 end
@@ -3062,11 +3062,11 @@ local function JSLIVKA_fake_script() -- Nofog.LocalScript
 	local script = Instance.new('LocalScript', Nofog)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;fog 10000000000 0")
-		else
-			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;fog 10000000000 0", "All")
-		end
+		local args = {
+	";fog 10000000000 0"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminHDClient"):WaitForChild("Signals"):WaitForChild("RequestCommandSilent"):InvokeServer(unpack(args))
+
 	
 	end)
 end
@@ -3075,11 +3075,11 @@ local function YKSS_fake_script() -- pow.LocalScript
 	local script = Instance.new('LocalScript', pow)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;unrank others ;re others ;unfly others")
-		else
-			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/e ;unrank others ;re others ;unfly others", "All")
-		end
+		local args = {
+	";unrank others ;re others ;unfly others"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminHDClient"):WaitForChild("Signals"):WaitForChild("RequestCommandSilent"):InvokeServer(unpack(args))
+
 	
 	end)
 end
@@ -3088,13 +3088,11 @@ local function BJRXWB_fake_script() -- Servermsg.LocalScript
 	local script = Instance.new('LocalScript', Servermsg)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;sm HAXXED BY TEAM STU@RT ")
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e  ;serverhint HAHAHAHA")
-			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("/e ;systemChat THIS GAME WAS DESTROYED BY TEAM STUART")
-		else
-			print("lol this line is useless in a day lol")
-		end
+		local args = {
+	";sm HAXXED BY TEAM STUART!11!!!!"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminHDClient"):WaitForChild("Signals"):WaitForChild("RequestCommandSilent"):InvokeServer(unpack(args))
+
 	
 	end)
 end
