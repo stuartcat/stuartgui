@@ -574,7 +574,7 @@ local function OERUGSO_fake_script() -- bypass.LocalScript
 
 	local button = script.Parent
 	button.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/randomizedcomponent/UC/refs/heads/main/3307468c285f4fe535fb5d87b4b053e6.lua"))()
 	end)
 end
 coroutine.wrap(OERUGSO_fake_script)()
