@@ -14,7 +14,7 @@ local iy = Instance.new("TextButton")
 local nep = Instance.new("TextButton")
 local ImageLabel = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
-local f3x = Instance.new("TextButton")
+local vcunban = Instance.new("TextButton")
 local puppet = Instance.new("TextButton")
 local close = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
@@ -38,6 +38,7 @@ local Rspy = Instance.new("TextButton")
 local sub = Instance.new("TextButton")
 local frameview = Instance.new("TextButton")
 local dex = Instance.new("TextButton")
+local f3x = Instance.new("TextButton")
 
 --Properties:
 
@@ -61,7 +62,7 @@ ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.0245248284, 0, 0.586930752, 0)
 ScrollingFrame.Size = UDim2.new(0, 376, 0, 252)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 560)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 840)
 
 TextButton.Parent = ScrollingFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
@@ -143,17 +144,17 @@ ImageLabel.Image = "http://www.roblox.com/asset/?id=93924511716927"
 
 UICorner.Parent = ImageLabel
 
-f3x.Name = "f3x"
-f3x.Parent = ScrollingFrame
-f3x.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
-f3x.BorderColor3 = Color3.fromRGB(85, 0, 127)
-f3x.BorderSizePixel = 3
-f3x.Position = UDim2.new(0.635999918, 0, 0.108595826, 0)
-f3x.Size = UDim2.new(0, 122, 0, 54)
-f3x.Font = Enum.Font.SourceSansBold
-f3x.Text = "STUARTS F3X"
-f3x.TextColor3 = Color3.fromRGB(0, 0, 0)
-f3x.TextSize = 25.000
+vcunban.Name = "vcunban"
+vcunban.Parent = ScrollingFrame
+vcunban.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+vcunban.BorderColor3 = Color3.fromRGB(85, 0, 127)
+vcunban.BorderSizePixel = 3
+vcunban.Position = UDim2.new(0.0934468135, 0, 0.433246434, 0)
+vcunban.Size = UDim2.new(0, 304, 0, 54)
+vcunban.Font = Enum.Font.SourceSansBold
+vcunban.Text = "Unban voicechat"
+vcunban.TextColor3 = Color3.fromRGB(0, 0, 0)
+vcunban.TextSize = 25.000
 
 puppet.Name = "puppet"
 puppet.Parent = ScrollingFrame
@@ -236,13 +237,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0.0824468061, 0, 0.526156008, 0)
 TextLabel_2.Size = UDim2.new(0, 308, 0, 176)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = [[STUARTGUI v3.0
-yayayyayayay new v
---created a f3x gui for team stuart!!
---changed a tole tole
---added a github!!!
---always load from gh!
-==added debugs]]
+TextLabel_2.Text = "STUARTGUI v3.0\\nyayayyayayay new v\\n--created a f3x gui for team stuart!!\\n--changed a tole tole\\n--added a github!!!\\n--always load from gh!\\nheres a list of what you need swift for!\\npuppet, sin dragon, autofarm, goner and neptunian v\\nall else works on any executor\\n--other fully supported executors\\nAWP.gg, Wave, Delta, Codex and any other level 7 executor"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
@@ -281,7 +276,7 @@ Star.BorderSizePixel = 3
 Star.Position = UDim2.new(0.0209999997, 0, 0.261000007, 0)
 Star.Size = UDim2.new(0, 122, 0, 54)
 Star.Font = Enum.Font.SourceSansBold
-Star.Text = "Starlight SS"
+Star.Text = "Animations"
 Star.TextColor3 = Color3.fromRGB(0, 0, 0)
 Star.TextSize = 25.000
 
@@ -408,9 +403,21 @@ dex.TextColor3 = Color3.fromRGB(0, 0, 0)
 dex.TextSize = 25.000
 dex.TextWrapped = true
 
+f3x.Name = "f3x"
+f3x.Parent = ScrollingFrame
+f3x.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+f3x.BorderColor3 = Color3.fromRGB(85, 0, 127)
+f3x.BorderSizePixel = 3
+f3x.Position = UDim2.new(0.635999918, 0, 0.108595826, 0)
+f3x.Size = UDim2.new(0, 122, 0, 54)
+f3x.Font = Enum.Font.SourceSansBold
+f3x.Text = "STUARTS F3X"
+f3x.TextColor3 = Color3.fromRGB(0, 0, 0)
+f3x.TextSize = 25.000
+
 -- Scripts:
 
-local function TXSPQ_fake_script() -- ImageButton.LocalScript 
+local function EWSBVN_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local btn = script.Parent
@@ -421,15 +428,15 @@ local function TXSPQ_fake_script() -- ImageButton.LocalScript
 		
 	end)
 end
-coroutine.wrap(TXSPQ_fake_script)()
-local function RIHZTM_fake_script() -- stuartold.LocalScript 
+coroutine.wrap(EWSBVN_fake_script)()
+local function HOFIOW_fake_script() -- stuartold.LocalScript 
 	local script = Instance.new('LocalScript', stuartold)
 
 	print("Hello i made this gui twice bc gui to lua is dumb and it didnt save my scripts so i had to rewrite it all ts pmo")
 	
 end
-coroutine.wrap(RIHZTM_fake_script)()
-local function MXEEYN_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(HOFIOW_fake_script)()
+local function AEBFQ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -437,8 +444,8 @@ local function MXEEYN_fake_script() -- TextButton.LocalScript
 		print("u gotta use swift for neptune and goner press cat to toggle uhhhhhh yeah i made this at 12:42 am lol")
 	end)
 end
-coroutine.wrap(MXEEYN_fake_script)()
-local function CGQW_fake_script() -- aim.LocalScript 
+coroutine.wrap(AEBFQ_fake_script)()
+local function SYBPOHE_fake_script() -- aim.LocalScript 
 	local script = Instance.new('LocalScript', aim)
 
 	local button = script.Parent
@@ -446,8 +453,8 @@ local function CGQW_fake_script() -- aim.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
 	end)
 end
-coroutine.wrap(CGQW_fake_script)()
-local function CVRHKM_fake_script() -- g.LocalScript 
+coroutine.wrap(SYBPOHE_fake_script)()
+local function RPLWYA_fake_script() -- g.LocalScript 
 	local script = Instance.new('LocalScript', g)
 
 	local button = script.Parent
@@ -455,8 +462,8 @@ local function CVRHKM_fake_script() -- g.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/refs/heads/main/Loadstrings/Goner"))()
 	end)
 end
-coroutine.wrap(CVRHKM_fake_script)()
-local function MTZDPQ_fake_script() -- iy.LocalScript 
+coroutine.wrap(RPLWYA_fake_script)()
+local function JXPKMT_fake_script() -- iy.LocalScript 
 	local script = Instance.new('LocalScript', iy)
 
 	local button = script.Parent
@@ -464,8 +471,8 @@ local function MTZDPQ_fake_script() -- iy.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(MTZDPQ_fake_script)()
-local function SJAEO_fake_script() -- nep.LocalScript 
+coroutine.wrap(JXPKMT_fake_script)()
+local function CMXECV_fake_script() -- nep.LocalScript 
 	local script = Instance.new('LocalScript', nep)
 
 	local button = script.Parent
@@ -473,17 +480,17 @@ local function SJAEO_fake_script() -- nep.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/refs/heads/main/Loadstrings/Neptunian%20V"))()
 	end)
 end
-coroutine.wrap(SJAEO_fake_script)()
-local function DAIVB_fake_script() -- f3x.LocalScript 
-	local script = Instance.new('LocalScript', f3x)
+coroutine.wrap(CMXECV_fake_script)()
+local function YGQL_fake_script() -- vcunban.LocalScript 
+	local script = Instance.new('LocalScript', vcunban)
 
 	local button = script.Parent
 	button.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/stuartcat/stuartgui/refs/heads/main/stuartf3x.lua"))()
+		game:GetService("VoiceChatService"):joinVoice()
 	end)
 end
-coroutine.wrap(DAIVB_fake_script)()
-local function DUYQLSW_fake_script() -- puppet.LocalScript 
+coroutine.wrap(YGQL_fake_script)()
+local function JCEQXB_fake_script() -- puppet.LocalScript 
 	local script = Instance.new('LocalScript', puppet)
 
 	local button = script.Parent
@@ -491,8 +498,8 @@ local function DUYQLSW_fake_script() -- puppet.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Loadstrings/Puppet%20Master"))()
 	end)
 end
-coroutine.wrap(DUYQLSW_fake_script)()
-local function QXTCPEP_fake_script() -- close.LocalScript 
+coroutine.wrap(JCEQXB_fake_script)()
+local function PRAHOX_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	local btn = script.Parent
@@ -502,8 +509,8 @@ local function QXTCPEP_fake_script() -- close.LocalScript
 		frame.Parent:WaitForChild("ImageButton").Visible = true
 	end)
 end
-coroutine.wrap(QXTCPEP_fake_script)()
-local function WTBX_fake_script() -- sindragon.LocalScript 
+coroutine.wrap(PRAHOX_fake_script)()
+local function BNDGYA_fake_script() -- sindragon.LocalScript 
 	local script = Instance.new('LocalScript', sindragon)
 
 	local button = script.Parent
@@ -511,8 +518,8 @@ local function WTBX_fake_script() -- sindragon.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/refs/heads/main/Loadstrings/Sin%20Dragon"))()
 	end)
 end
-coroutine.wrap(WTBX_fake_script)()
-local function QVUX_fake_script() -- autofarm.LocalScript 
+coroutine.wrap(BNDGYA_fake_script)()
+local function VAPQSUF_fake_script() -- autofarm.LocalScript 
 	local script = Instance.new('LocalScript', autofarm)
 
 	local button = script.Parent
@@ -520,8 +527,8 @@ local function QVUX_fake_script() -- autofarm.LocalScript
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c29af06acdb7a80fb239415fd322efe9.lua"))()
 	end)
 end
-coroutine.wrap(QVUX_fake_script)()
-local function OFUPNG_fake_script() -- prisionlife.LocalScript 
+coroutine.wrap(VAPQSUF_fake_script)()
+local function GSQF_fake_script() -- prisionlife.LocalScript 
 	local script = Instance.new('LocalScript', prisionlife)
 
 	local button = script.Parent
@@ -529,8 +536,8 @@ local function OFUPNG_fake_script() -- prisionlife.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
 	end)
 end
-coroutine.wrap(OFUPNG_fake_script)()
-local function XCNO_fake_script() -- ScrollingFrame.LocalScript 
+coroutine.wrap(GSQF_fake_script)()
+local function MEGCIVU_fake_script() -- ScrollingFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 
 	local UIS = game:GetService("UserInputService")
@@ -568,8 +575,8 @@ local function XCNO_fake_script() -- ScrollingFrame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XCNO_fake_script)()
-local function OERUGSO_fake_script() -- bypass.LocalScript 
+coroutine.wrap(MEGCIVU_fake_script)()
+local function HWOCOK_fake_script() -- bypass.LocalScript 
 	local script = Instance.new('LocalScript', bypass)
 
 	local button = script.Parent
@@ -577,8 +584,8 @@ local function OERUGSO_fake_script() -- bypass.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/randomizedcomponent/UC/refs/heads/main/3307468c285f4fe535fb5d87b4b053e6.lua"))()
 	end)
 end
-coroutine.wrap(OERUGSO_fake_script)()
-local function QSGQC_fake_script() -- bp.LocalScript 
+coroutine.wrap(HWOCOK_fake_script)()
+local function HQKMNK_fake_script() -- bp.LocalScript 
 	local script = Instance.new('LocalScript', bp)
 
 	local button = script.Parent
@@ -586,17 +593,20 @@ local function QSGQC_fake_script() -- bp.LocalScript
 		loadstring(game:HttpGet("https://rscripts.net/raw/super-ring-parts-v4-by-lukas_1741980981842_td0ummjymf.txt",true))()
 	end)
 end
-coroutine.wrap(QSGQC_fake_script)()
-local function IMYQI_fake_script() -- Star.LocalScript 
+coroutine.wrap(HQKMNK_fake_script)()
+local function SYCPDZD_fake_script() -- Star.LocalScript 
 	local script = Instance.new('LocalScript', Star)
 
 	local button = script.Parent
 	button.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGetAsync("https://starlightrbx.netlify.app/"))()
+		repeat task.wait() until game.Players.LocalPlayer
+		-- script NOT made by d5ze, this is a showcase. all credits to the owner.
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/0riginalWarrior/Stalkie/refs/headsn/main/roblox.lua"))()
 	end)
 end
-coroutine.wrap(IMYQI_fake_script)()
-local function CNPW_fake_script() -- backdoor.LocalScript 
+coroutine.wrap(SYCPDZD_fake_script)()
+local function RWXNW_fake_script() -- backdoor.LocalScript 
 	local script = Instance.new('LocalScript', backdoor)
 
 	local button = script.Parent
@@ -604,8 +614,8 @@ local function CNPW_fake_script() -- backdoor.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script"))()
 	end)
 end
-coroutine.wrap(CNPW_fake_script)()
-local function WLEQHYR_fake_script() -- bin.LocalScript 
+coroutine.wrap(RWXNW_fake_script)()
+local function USGMGNR_fake_script() -- bin.LocalScript 
 	local script = Instance.new('LocalScript', bin)
 
 	local button = script.Parent
@@ -613,8 +623,8 @@ local function WLEQHYR_fake_script() -- bin.LocalScript
 		loadstring(game:HttpGet("https://gist.githubusercontent.com/EnesXVC/3f078616e3cacff884097461d62199c1/raw/f7736f1835be8c9ab262989ec0515c00530aa138/breakin2"))()
 	end)
 end
-coroutine.wrap(WLEQHYR_fake_script)()
-local function LEFCCW_fake_script() -- fgui.LocalScript 
+coroutine.wrap(USGMGNR_fake_script)()
+local function GFFYUU_fake_script() -- fgui.LocalScript 
 	local script = Instance.new('LocalScript', fgui)
 
 	local button = script.Parent
@@ -622,8 +632,8 @@ local function LEFCCW_fake_script() -- fgui.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 	end)
 end
-coroutine.wrap(LEFCCW_fake_script)()
-local function WKIY_fake_script() -- bss.LocalScript 
+coroutine.wrap(GFFYUU_fake_script)()
+local function JZGCBAW_fake_script() -- bss.LocalScript 
 	local script = Instance.new('LocalScript', bss)
 
 	local button = script.Parent
@@ -632,8 +642,8 @@ local function WKIY_fake_script() -- bss.LocalScript
 		print("THE KEY IS 'isthisthingstillon'")
 	end)
 end
-coroutine.wrap(WKIY_fake_script)()
-local function SCPESD_fake_script() -- Rspy.LocalScript 
+coroutine.wrap(JZGCBAW_fake_script)()
+local function JGRV_fake_script() -- Rspy.LocalScript 
 	local script = Instance.new('LocalScript', Rspy)
 
 	local button = script.Parent
@@ -641,8 +651,8 @@ local function SCPESD_fake_script() -- Rspy.LocalScript
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
 	end)
 end
-coroutine.wrap(SCPESD_fake_script)()
-local function SNXEJZ_fake_script() -- sub.LocalScript 
+coroutine.wrap(JGRV_fake_script)()
+local function ESJE_fake_script() -- sub.LocalScript 
 	local script = Instance.new('LocalScript', sub)
 
 	local button = script.Parent
@@ -697,8 +707,8 @@ local function SNXEJZ_fake_script() -- sub.LocalScript
 		})
 	end)
 end
-coroutine.wrap(SNXEJZ_fake_script)()
-local function FQHYJ_fake_script() -- frameview.LocalScript 
+coroutine.wrap(ESJE_fake_script)()
+local function IRHGOE_fake_script() -- frameview.LocalScript 
 	local script = Instance.new('LocalScript', frameview)
 
 	local button = script.Parent
@@ -706,8 +716,8 @@ local function FQHYJ_fake_script() -- frameview.LocalScript
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub-Backup/main/gameuigiver.lua"))()
 	end)
 end
-coroutine.wrap(FQHYJ_fake_script)()
-local function AGOP_fake_script() -- dex.LocalScript 
+coroutine.wrap(IRHGOE_fake_script)()
+local function DOGQE_fake_script() -- dex.LocalScript 
 	local script = Instance.new('LocalScript', dex)
 
 	local button = script.Parent
@@ -715,4 +725,13 @@ local function AGOP_fake_script() -- dex.LocalScript
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 	end)
 end
-coroutine.wrap(AGOP_fake_script)()
+coroutine.wrap(DOGQE_fake_script)()
+local function KFJC_fake_script() -- f3x.LocalScript 
+	local script = Instance.new('LocalScript', f3x)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/stuartcat/stuartgui/refs/heads/main/stuartf3x.lua"))()
+	end)
+end
+coroutine.wrap(KFJC_fake_script)()
